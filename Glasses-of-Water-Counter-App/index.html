@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    
+    <title>Glasses of Water Counter</title>
+</head>
+<body>
+    <div id="bg-img"></div>  
+    <div class="container">
+    <h1>Today many glasses of water did you drink today?</h1>
+    <h2> <span id="counter-element"> 0 </span></h2>
+    <button id="add-button" onclick="increment()">Increase</button>
+    <button id="save-button" onclick="save()">Save</button>
+    <br>
+    <h3 id="saved-counts">Previously Saved : </h3>
+    <script src="app.js"></script>
+    </div>
+</body>
+</html>

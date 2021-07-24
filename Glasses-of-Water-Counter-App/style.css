@@ -1,0 +1,49 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#bg-img{
+    background-image: url('drinking_water.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right:0;
+    left:0;
+    z-index:-1;
+    opacity: 0.8;
+}
+
+.container{
+    position:absolute;
+    top: 30vh;
+    left: 20vw;
+    margin:2rem;
+    padding: 1.2rem;
+    background-color: skyblue;
+    border-radius: 20px;
+}
+
+button{
+    color: white;
+    height: 40px;
+    width:90px;
+    border:none;
+    border-radius: 5px;
+}
+
+button:hover{
+    opacity:0.8;
+}
+
+#add-button{
+    background-color:blue;
+}
+
+#save-button{
+    background-color:green;
+}
+
