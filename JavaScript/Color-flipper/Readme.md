@@ -19,7 +19,7 @@
 
 ## About The Project
 
-[![Color-flipper Demo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)
+[![Color-flipper Demo](https://user-images.githubusercontent.com/45481137/127779674-ae2f6947-4626-4b41-8ae3-76088def2e46.png)](https://color-flipper-js-app.netlify.app/)
 
 This Project is a beginner JavaScript project. The user gets two option to either randomize the background color with both numbers and aplhabets or else just with numbers.
 
