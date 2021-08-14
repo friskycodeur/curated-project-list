@@ -29,7 +29,7 @@ header {
   border-left: 2px solid var(--secondary-color) !important;
 }
 .connector-column {
-  z-index: 1;
+  z-index: 1 !important;
 }
 .connector {
   background-color: var(--secondary-color) !important;
