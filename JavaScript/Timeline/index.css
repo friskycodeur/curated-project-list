@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+:root {
+  --primary-color: rgba(4, 18, 51, 0.877);
+  --secondary-color: rgb(64, 141, 122);
+}
+header {
+  background-color: var(--secondary-color) !important;
+}
+.hero > hr {
+  color: var(--primary-color) !important;
+  height: 2px !important;
+}
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  background-color: var(--secondary-color);
+}
+.border-of-left {
+  border-right: 2px solid var(--secondary-color) !important;
+}
+.border-of-right {
+  border-left: 2px solid var(--secondary-color) !important;
+}
+.connector-column {
+  z-index: 1;
+}
+.connector {
+  background-color: var(--secondary-color) !important;
+  height: 4px !important;
+}
