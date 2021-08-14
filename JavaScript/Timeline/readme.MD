@@ -1,4 +1,4 @@
-# Countdown timer App
+# Timeline App
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
