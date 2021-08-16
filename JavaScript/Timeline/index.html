@@ -1,14 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js" defer></script>
+    <title>Timeline App</title>
+    <!-- animate on scroll css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- external css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- dev icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+        crossorigin="anonymous">
+
 </head>
+
 <body>
-    
+    <header class="container-fluid p-5">
+        <section class="hero container">
+            <p class="fs-1 text-white text-center">TIMELINE</p>
+            <hr>
+            <p class="text-white text-center">My Programming Journey</p>
+        </section>
+    </header>
+    <main class="container d-flex align-items-center flex-column py-5">
+        <div class="circle"></div>
+        <section class="w-100">
+            <!-- left item -->
+            <div class="row p-0">
+                <div class="col-6 p-0 d-flex align-items-center border-of-left">
+                    <div data-aos="zoom-in" data-aos="zoom-in" class="col-10 py-5 my-5">
+                        <div class="p-0 d-flex flex-column flex-lg-row justify-content-center align-items-center rounded-0">
+                            <div class="col-lg-8 col-12">
+                                <div class="d-flex flex-column align-items-center align-items-lg-end">
+                                    <p class="fs-1 fw-bolder text-primary m-0">2018</p>
+                                    <p class="fs-5 fw-bold">Python</p>
+                                    <p class="fs-6 text-lg-justify text-center text-lg-end">I started with python.Solved problems in URI Online Judge</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-6 d-flex justify-content-center">
+                                <img class="w-100" src="https://img.icons8.com/color/480/000000/python--v1.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 connector-column">
+                        <div class="connector"></div>
+                    </div>
+                </div>
+                <div class=" col-6 p-0 border-of-right"></div>
+            </div>
+
+            <!-- right item -->
+            <div class="row p-0">
+                <div class="col-6 p-0 border-of-left"></div>
+                <div class="col-6 p-0 d-flex align-items-center border-of-right">
+                    <div class=" col-2 connector-column">
+                        <div class="connector"></div>
+                    </div>
+                    <div data-aos="zoom-in" class="col-10 py-5 my-5">
+                        <div class="p-0 d-flex flex-column flex-lg-row justify-content-center align-items-end rounded-0">
+                            <div class="col-lg-4 col-6 d-flex justify-content-center">
+                                <img class="w-100" src="https://img.icons8.com/color/144/000000/c-programming.png" />
+                            </div>
+                            <div class="col-lg-8 col-12">
+                                <div class="d-flex flex-column align-items-center align-items-lg-start">
+                                    <p class="fs-1 fw-bolder text-primary m-0">2018</p>
+                                    <p class="fs-5 fw-bold">C</p>
+                                    <p class="fs-6 text-lg-justify text-center text-lg-end">Started learning C, built console applications.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- left item -->
+            <div class="row p-0">
+                <div class="col-6 p-0 d-flex align-items-center border-of-left">
+                    <div data-aos="zoom-in" class="col-10 py-5 my-5">
+                        <div class="p-0 d-flex flex-column flex-lg-row justify-content-center align-items-center rounded-0">
+                            <div class="col-lg-8 col-12">
+                                <div class="d-flex flex-column align-items-center align-items-lg-end">
+                                    <p class="fs-1 fw-bolder text-primary m-0">2018-2019</p>
+                                    <p class="fs-5 fw-bold">C++</p>
+                                    <p class="fs-6 text-lg-justify text-center text-lg-end">Explored C++ and solved problems in UVA Online Judge and Hackerrank. Build console applications like library
+                                        management, tic tac toe, gusseing game etc.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-6 d-flex justify-content-center">
+                                <img class="w-100" src="https://img.icons8.com/color/144/000000/c-plus-plus-logo.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 connector-column">
+                        <div class="connector"></div>
+                    </div>
+                </div>
+                <div class=" col-6 p-0 border-of-right"></div>
+            </div>
+
+            <!-- right item -->
+            <div class="row p-0">
+                <div class="col-6 p-0 border-of-left"></div>
+                <div class="col-6 p-0 d-flex align-items-center border-of-right">
+                    <div class=" col-2 connector-column">
+                        <div class="connector"></div>
+                    </div>
+                    <div data-aos="zoom-in" class="col-10 py-5 my-5">
+                        <div class="p-0 d-flex flex-column flex-lg-row justify-content-center align-items-end rounded-0">
+                            <div class="col-lg-4 col-6 d-flex justify-content-center">
+                                <img class="w-100" src="https://img.icons8.com/color/144/000000/java-coffee-cup-logo--v1.png" />
+                            </div>
+                            <div class="col-lg-8 col-12">
+                                <div class="d-flex flex-column align-items-center align-items-lg-start">
+                                    <p class="fs-1 fw-bolder text-primary m-0">2019-2020</p>
+                                    <p class="fs-5 fw-bold">Java</p>
+                                    <p class="fs-6 text-lg-justify text-center text-lg-end">I learned Java and started building android apps. Built couple of medium level applications.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- left item -->
+            <div class="row p-0">
+                <div class="col-6 p-0 d-flex align-items-center border-of-left">
+                    <div data-aos="zoom-in" class="col-10 py-5 my-5">
+                        <div class="p-0 d-flex flex-column flex-lg-row justify-content-center align-items-center rounded-0">
+                            <div class="col-lg-8 col-12">
+                                <div class="d-flex flex-column align-items-center align-items-lg-end">
+                                    <p class="fs-1 fw-bolder text-primary m-0">2020-2021</p>
+                                    <p class="fs-5 fw-bold">Flutter</p>
+                                    <p class="fs-6 text-lg-justify text-center text-lg-end">Had to learn Flutter to build cross platform applications.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-6 d-flex justify-content-center">
+                                <img class="w-100" src="https://img.icons8.com/color/144/000000/flutter.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 connector-column">
+                        <div class="connector"></div>
+                    </div>
+                </div>
+                <div class=" col-6 p-0 border-of-right"></div>
+            </div>
+
+            <!-- right item -->
+            <div class="row p-0">
+                <div class="col-6 p-0 border-of-left"></div>
+                <div class="col-6 p-0 d-flex align-items-center border-of-right">
+                    <div class=" col-2 connector-column">
+                        <div class="connector"></div>
+                    </div>
+                    <div data-aos="zoom-in" class="col-10 py-5 my-5">
+                        <div class="p-0 d-flex flex-column flex-lg-row justify-content-center align-items-end rounded-0">
+                            <div class="col-lg-4 col-6 d-flex justify-content-center">
+                                <img class="w-100" src="https://img.icons8.com/color/144/000000/javascript--v1.png" />
+                            </div>
+                            <div class="col-lg-8 col-12">
+                                <div class="d-flex flex-column align-items-center align-items-lg-start">
+                                    <p class="fs-1 fw-bolder text-primary m-0">2021</p>
+                                    <p class="fs-5 fw-bold">Javascript</p>
+                                    <p class="fs-6 text-lg-justify text-center text-lg-end">Now, I am learning Javascript.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="circle"></div>
+    </main>
+    <!-- animate on scroll js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <script src="./app.js">
+
+    </script>
 </body>
+
 </html>
