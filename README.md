@@ -14,9 +14,9 @@
     <li>
       <a href="#getting-started">Getting Started</a>
     </li>
-    <li>
+<!--     <li>
       <a href="#implemented-projects">Implemented Projects</a>
-    </li>
+    </li> -->
     <li><a href="#best-way-to-learn">Best way to learn</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
