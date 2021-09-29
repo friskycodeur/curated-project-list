@@ -35,17 +35,18 @@ Current projects on this list are build with :
 * JavaScript
 * HTML5
 * CSS
+* Python
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 Choose a projects you want to work on. Read about the idea and details in the readme. Start working on it , explore and learn new concepts along the way.
 
-## Implemented Projects
+<!-- ## Implemented Projects
 
 - [Glasses of Water Counter](https://github.com/friskycodeur/curated-project-list/tree/main/JavaScript/Glasses-of-Water-Counter-App)
 - [CountDown Timer](https://github.com/friskycodeur/curated-project-list/tree/main/JavaScript/Countdown-Timer)
-- [Color Flipper](https://github.com/friskycodeur/curated-project-list/tree/main/JavaScript/Color-flipper)
+- [Color Flipper](https://github.com/friskycodeur/curated-project-list/tree/main/JavaScript/Color-flipper) -->
 
 <!-- USAGE EXAMPLES -->
 
