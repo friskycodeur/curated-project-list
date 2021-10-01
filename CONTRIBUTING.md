@@ -46,6 +46,7 @@ We want your work to be readable by others; therefore, we encourage you to note 
 
 #### Other points to remember while submitting your work: 
 - If you have modified/added code work, make sure the code compiles before submitting.
+- Don't forget to add readme file to elaborate the project.You can refer to [this sample readme.](https://github.com/friskycodeur/curated-project-list/blob/main/resources/sample_readme.md)
 - If you have modified/added documentation work, ensure your language is concise and contains no grammar errors.
 - At once, you are asslowed to get 3 issues per segment.
 - Do not update the README.md and CONTRIBUTING.md.
