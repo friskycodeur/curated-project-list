@@ -35,7 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project is a curated list of beginner-friendly Projects to help you start your developer journey. As of now we're working to add JavaScript projects and soon will extend to other languages and fields. To know about all the projects, how to contribute and the best way to learn from this repository , be sure to read this readme till the end.
+The goal of this project is to provide beginners with a list of projects along with proper implementation to help them improve and learn through Project-based-learnings.  Contibuting to this repository and adding new projects will help beginners to learn concepts and amateurs to revise them , so feel free to contribute in any way you want, just make sure to follow the contribution guidelines.
 
 ### Built With
 
