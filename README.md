@@ -28,6 +28,7 @@
     <li><a href="#best-way-to-learn">Best way to learn</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#contributor-showcase">Contributor Showcase </a></li>
   </ol>
 </details>
 
@@ -178,6 +179,11 @@ Need any help , you can [mail me here](mailto:friskycodeur@gmail.com)
 
 ## Community
 Join us on the Discussion tab to get help in contributing, as well as stay up-to-date on issues and best practices.
+
+## Contributor Showcase
+<a href="https://github.com/friskycodeur/curated-project-list/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=friskycodeur/curated-project-list" />
+</a>
 
 <!-- <h1> Let's Connect 😃</h1>
 <div>
