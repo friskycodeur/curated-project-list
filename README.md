@@ -168,14 +168,14 @@ Need any help , you can [mail me here](mailto:friskycodeur@gmail.com)
 
 ## Please STAR :star2: this repository if you liked it and had fun :)
 
-<!-- ### Maintainers! :wink:
+### Maintainers! :wink:
 
 <table>
   <tbody><tr>
     <td align="center"><a href="https://github.com/friskycodeur"><img alt="" src="https://avatars.githubusercontent.com/friskycodeur" width="100px;"><br><sub><b>Prateek Maheshwari</b></sub></a><br><a href="https://github.com/geekquad/AlgoBook/commits?author=vlx01" title="Code">💻 🖋</a></td></a></td>
     <td align="center"><a href="https://github.com/rachit-geek"><img alt="" src="https://avatars.githubusercontent.com/rachit-geek" width="100px;"><br><sub><b>Rachit Goyal</b></sub></a><br><a href="https://github.com/geekquad/AlgoBook/commits?author=geekquad" title="Code">💻 🖋</a></td> </a></td>
   </tr>
-</tbody></table> -->
+</tbody></table>
 
 ## Community
 Join us on the Discussion tab to get help in contributing, as well as stay up-to-date on issues and best practices.
