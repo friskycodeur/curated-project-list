@@ -20,9 +20,9 @@ A Number guessing game, in which the user selects a range. Let's say User select
 
 ### Concepts used
 
-1. random library : https://docs.python.org/3/library/random.html
-2. math library : https://docs.python.org/3/library/math.html
-3. Basic if-else functions : https://www.geeksforgeeks.org/python-if-else/
+1. [random library](https://docs.python.org/3/library/random.html)
+2. [math library](https://docs.python.org/3/library/math.html)
+3. [Basic if-else functions](https://www.geeksforgeeks.org/python-if-else)
 
 ## Best Way to Learn
 
