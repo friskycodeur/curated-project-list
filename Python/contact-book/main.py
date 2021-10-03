@@ -29,7 +29,7 @@ def search():
         if i[0] == g:
             print("Searching...")
             print("Contact found! The details are:")
-            print("Name:",i[0], "Contact No.:",i[1], "E-mail address:",i[2],"Location:",i[3])
+            print("Name: ",i[0], "Contact No.: ",i[1], "E-mail address: ",i[2],"Location: ",i[3])
 
 
 # UPDATING CONTACTS
@@ -137,7 +137,6 @@ def choices():
         choices()
     elif choi == 6:
         print("Exiting....")
-        print("-----------------------------------------------------")
         print("-----------------------------------------------------")
     else:
         print("Wrong choice entered!")
