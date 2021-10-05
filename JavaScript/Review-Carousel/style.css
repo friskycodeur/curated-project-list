@@ -1,0 +1,122 @@
+*{
+	padding: 0;
+    margin: 0;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	background: blanchedalmond;
+	position: relative;
+}
+
+.slide-row{
+	display: flex;
+	width: 3200px;
+	transition: 0.5s;
+}
+
+.viewbox{
+	width: 800px;
+	height: 400px;
+	position: relative;
+}
+
+.userText{
+	width: 720px;
+	height: 370px;
+	left: 0;
+	top: 50%;
+	padding: 45px;
+	box-sizing: border-box;
+	background: sandybrown;
+	border-radius: 120px;
+	position: absolute;
+	transform: translateY(-50%);
+}
+
+
+ .userImage{
+	top: 0; 
+	right: 0;
+    left: 65%;
+	height: 100%;
+	position: absolute;
+    z-index: 1;
+}
+
+.userImage img{
+	height: 100%;
+	border-radius: 10px ;	
+}
+
+h3{
+	left: 50%;
+	color: white;
+	font-family: 'Bonheur Royale', cursive;
+}
+
+h2{
+	z-index: 1;
+	position: absolute;
+	left: 230px;
+	top: 30px;
+	color: floralwhite;
+	font-family: 'Bonheur Royale', cursive;
+}
+
+.pic{
+	width: 265px;
+}
+
+.master{
+	width: 800px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+p{
+	font-family: 'Ephesis', cursive;
+	width: 450px;
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 32px;
+	margin: 60px 0 30px;
+}
+
+.controllers{
+	display: flex;
+	position: absolute;
+	bottom: -80px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+.controllers span{
+	width: 15px;
+	height: 15px;
+	border-radius: 20px;
+	background: sandybrown;
+}
+
+.main{
+	width: 45px !important;
+	margin: 0 7px;
+	border-radius: 12px !important;
+}
+
+
+.Reviews{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.btn{
+	cursor: pointer;
+	transition: 0.5s;
+}
