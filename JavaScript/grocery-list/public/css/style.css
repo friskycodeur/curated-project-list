@@ -1,0 +1,69 @@
+body {
+  background-image: url("/img/bg.jpg");
+  background-size: cover;
+}
+h1 {
+  color: #33398a;
+  margin-top: 0rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 5.5rem;
+  font-style: italic;
+  text-decoration: underline;
+}
+.item {
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  margin-bottom: 1rem;
+}
+#main {
+  margin-top: 13%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.checkbox {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radisus: 50%;
+  border: 0px;
+  margin-left: 5%;
+}
+.checkbox:checked + span {
+  text-decoration: line-through;
+}
+span {
+  font-weight: 600;
+  /* color: #f7fb00; */
+  color: black;
+  font-size: 1.7rem;
+  margin-left: 5%;
+}
+#newitem {
+}
+#quantity {
+}
+#input {
+  margin-top: 2rem;
+}
+#input input {
+  padding: 0.5rem;
+  height: 1.5rem;
+  width: 40%;
+  margin-top: 2%;
+  border: 0px;
+  border-radius: 3rem;
+  color: black;
+  font-size: 1.5rem;
+}
+#input input::-webkit-input-placeholder {
+  font-size: 20px;
+  overflow: visible;
+}
+button {
+  border: 0;
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  margin-left: 0.75rem;
+  width: 2.3rem;
+  height: 2.3rem;
+}
