@@ -1,4 +1,4 @@
-# Guess the Number Game in Python
+# Email Slicer using Python
 
 <details open="open">
   <summary>Table of Contents</summary>
