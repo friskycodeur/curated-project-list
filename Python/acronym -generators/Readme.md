@@ -1,4 +1,4 @@
-# Email Slicer using Python
+# Acronym Generators
 
 <details open="open">
   <summary>Table of Contents</summary>
@@ -16,15 +16,15 @@
 
 ## About the Project
 
-The program helps get you the username and domain name from an email address. You can even customize the application and send a message to the host with this information.
+An Acronym Generator take a String as an input and it will return the initials of all the words in the String.
 
 ### Concepts used
 
 This section lists the Python concepts that were used while making this project.
 
-- [Slicing](https://www.w3schools.com/python/python_strings_slicing.asp)
-- [List Index](https://www.w3schools.com/python/ref_list_index.asp)
-- [Stripe](https://www.w3schools.com/python/ref_string_strip.asp)
+- [Split](https://www.w3schools.com/python/ref_string_split.asp)
+- [Replace](https://www.w3schools.com/python/ref_string_replace.asp)
+- [Upper](https://www.w3schools.com/python/ref_string_upper.asp)
 
 ## Best Way to Learn
 
